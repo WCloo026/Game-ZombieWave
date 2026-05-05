@@ -23,6 +23,7 @@ Core Systems
 -Collision Engine: Implements circle-to-rectangle and proximity-based detection for projectiles and resource collection.
 -Particle Engine: Custom Particle class handles visual feedback for unit-specific effects (e.g., fire embers and ice crystals).
 -Unit AI: Defenders detect enemies in their specific row and trigger attack cycles automatically.
+<html>
 <table style="width:100%; border-collapse: collapse; font-family: sans-serif; background-color: #2c3e50; color: white; border: 1px solid #34495e;">
     <thead>
         <tr style="background-color: #34495e; text-align: left;">
@@ -65,9 +66,10 @@ Core Systems
         </tr>
     </tbody>
 </table>
+</html>
 
 ## 🚀 How to Run
 1. Download or clone the repository.
-2.Ensure all files (HTML, JS, CSS, and MP3) are located in the same root directory.
-3.Open the Zombie Wave HTML file in any modern web browser (Chrome/Microsoft Edge and etc).
+2. Ensure all files (HTML, JS, CSS, and MP3) are located in the same root directory.
+3. Open the Zombie Wave HTML file in any modern web browser (Chrome/Microsoft Edge and etc).
 
