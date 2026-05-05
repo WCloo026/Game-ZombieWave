@@ -2,11 +2,11 @@
 A strategic, grid-based survival game built from scratch using HTML5 Canvas, CSS3, and Vanilla JavaScript. Defend your territory against relentless waves of zombies by deploying specialized units and managing your gold resources in real-time.
 
 ## 🎮 Gameplay Features
--Dynamic Unit Deployment: Drag and drop different unit types onto the grid to build your defense line.
--Resource Management: Collect gold by hovering over falling coins to fund your army.
--Status Effects: Utilize advanced combat mechanics including Freezing (Ice) to slow enemies and Burning (Fire) for damage-over-time.
--Scaling Difficulty: Survive against various enemy types like Standard zombies, high-health Brutes, and the formidable Titans.
--Real-time UI: Integrated survival timer, score tracking, and resource counters.
+- Dynamic Unit Deployment: Drag and drop different unit types onto the grid to build your defense line.
+- Resource Management: Collect gold by hovering over falling coins to fund your army.
+- Status Effects: Utilize advanced combat mechanics including Freezing (Ice) to slow enemies and Burning (Fire) for damage-over-time.
+- Scaling Difficulty: Survive against various enemy types like Standard zombies, high-health Brutes, and the formidable Titans.
+- Real-time UI: Integrated survival timer, score tracking, and resource counters.
 
 ## 📂 File Structure
 #### As seen in your project directory:
@@ -19,10 +19,10 @@ A strategic, grid-based survival game built from scratch using HTML5 Canvas, CSS
 
 ## 🛠️ Technical Implementation
 Core Systems
--Game Engine: Built on a custom requestAnimationFrame loop for smooth 60 FPS rendering.
--Collision Engine: Implements circle-to-rectangle and proximity-based detection for projectiles and resource collection.
--Particle Engine: Custom Particle class handles visual feedback for unit-specific effects (e.g., fire embers and ice crystals).
--Unit AI: Defenders detect enemies in their specific row and trigger attack cycles automatically.
+- Game Engine: Built on a custom requestAnimationFrame loop for smooth 60 FPS rendering.
+- Collision Engine: Implements circle-to-rectangle and proximity-based detection for projectiles and resource collection.
+- Particle Engine: Custom Particle class handles visual feedback for unit-specific effects (e.g., fire embers and ice crystals).
+- Unit AI: Defenders detect enemies in their specific row and trigger attack cycles automatically.
 <html>
 <table style="width:100%; border-collapse: collapse; font-family: sans-serif; background-color: #2c3e50; color: white; border: 1px solid #34495e;">
     <thead>
