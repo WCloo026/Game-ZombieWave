@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zombie Tower Defense</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="gameContainer">
+        <div id="ui-bar">
+            <h3 style="text-align:center; color:white; margin-bottom: 10px;">UNITS</h3>
+            <div class="draggable-unit" data-type="STANDARD" style="background: #9b59b6;">Basic ($100)</div>
+            <div class="draggable-unit" data-type="FIRE" style="background: #e67e22;">Fire ($150)</div>
+            <div class="draggable-unit" data-type="ICE" style="background: #3498db;">Ice ($200)</div>
+			<!-- NEW SHIELD UNIT -->
+			<div class="draggable-unit" data-type="SHIELD" style="background: #7f8c8d;">Shield ($50)</div>
+            <!-- Add this alongside your other draggable-unit divs -->
+			<div class="draggable-unit" data-type="REMOVER" style="background-color: #000000; color: white; border: 2px solid #555;">
+				<div class="unit-icon"></div>
+				<p>Remover</p>
+				<span>($0)</span></div>
+			<button id="pauseBtn" class="ctrl-btn">PAUSE</button>
+        </div>
+
+        <canvas id="myCanvas"></canvas>
+
+        <div id="startOverlay" class="overlay">
+            <div class="menu-card">
+                <h1>ZOMBIE DEFENSE</h1>
+                <p>Drag units to the grid. Hover over coins to collect gold!</p>
+                <button id="startBtn" class="menu-btn">TAP TO PLAY</button>
+            </div>
+        </div>
+
+        <div id="gameOverOverlay" class="overlay hidden">
+            <div class="menu-card">
+                <h1 style="color: #e74c3c;">BRAINS EATEN!</h1>
+                <p id="finalScore" style="font-size: 24px; margin-bottom: 20px;"></p>
+                <button id="restartBtn" class="menu-btn">RESTART</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
